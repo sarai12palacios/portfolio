@@ -1,3 +1,10 @@
+body{
+  font-family: "Rowdies", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
 .nav-style{
     background-color: #8E0606 !important;
     color: white;
@@ -54,13 +61,14 @@
   }
 
   .my-picture{
-    width: 100vw;
-    background-color: #FFE433;
+    width: 100%;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
-    padding-top: 100px;
+    flex-wrap: wrap;
+    padding-top: 70px;
     padding-bottom: 100px;
   }
 
@@ -118,4 +126,21 @@
     color: #3498db;
   }
 
+  .rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
   
