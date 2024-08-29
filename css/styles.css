@@ -75,7 +75,7 @@ body{
   .footer {
     background-color: #8E0606;
     color: white;
-    padding: 40px 0;
+    padding: 50px 0;
   }
   
   .footer .container {
@@ -112,7 +112,7 @@ body{
   }
   
   .footer-col ul li a:hover {
-    color: #3498db;
+    color: #FFE433;
   }
   
   .social-links a {
@@ -123,7 +123,7 @@ body{
   }
   
   .social-links a:hover {
-    color: #3498db;
+    color: #FFE433;
   }
 
   .rowdies-light {
