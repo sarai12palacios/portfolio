@@ -14,6 +14,12 @@ window.addEventListener("load", () => {
       titleHome: "Welcome to my personal website!",
       spanHome:
         " I'm Indira Ramirez, a multilingual web communication specialist with a rich background in language education, translation, and digital communication. Currently, I'm pursuing a Master's in CAWEB at the University of Strasbourg, where I also work as a Pedagogical Coordinator and Communication Assistant. My journey has taken me from teaching languages in Honduras to assisting students in France, all while honing my skills in translation and digital tools. Here, you'll find insights into my professional experiences, projects, and the unique blend of cultures and languages that shape my approach to communication.",
+      contactFooter: "Contact me",
+      emailFooter: "E-mail",
+      socialMediaFooter: "Social Media",
+      downloadCvFooter: "Download CV",
+      titleAcademic: "Academic Background",
+
     },
     es: {
       aboutMeUl: "Acerca de mí",
@@ -27,7 +33,13 @@ window.addEventListener("load", () => {
       volunteeringLi: "Voluntariado",
       upperBarBanner: "Hola, mi nombre es Indira, soy...",
       titleHome: "¡Bienvenido a mi sitio web personal!",
-      spanHome: "Soy Indira Ramírez, especialista en comunicación web multilingüe con una amplia experiencia en enseñanza de idiomas, traducción y comunicación digital. Actualmente estoy cursando un máster en CAWEB en la Universidad de Estrasburgo, donde también trabajo como coordinadora pedagógica y asistente de comunicación. Mi viaje me ha llevado desde la enseñanza de idiomas en Honduras hasta la formación de estudiantes en Francia, todo ello mientras perfeccionaba mis habilidades en traducción y herramientas digitales. Aquí encontrarás información sobre mis experiencias profesionales, mis proyectos y la mezcla única de culturas e idiomas que dan forma a mi enfoque de la comunicación.",
+      spanHome:
+        "Soy Indira Ramírez, especialista en comunicación web multilingüe con una amplia experiencia en enseñanza de idiomas, traducción y comunicación digital. Actualmente estoy cursando un máster en CAWEB en la Universidad de Estrasburgo, donde también trabajo como coordinadora pedagógica y asistente de comunicación. Mi viaje me ha llevado desde la enseñanza de idiomas en Honduras hasta la formación de estudiantes en Francia, todo ello mientras perfeccionaba mis habilidades en traducción y herramientas digitales. Aquí encontrarás información sobre mis experiencias profesionales, mis proyectos y la mezcla única de culturas e idiomas que dan forma a mi enfoque de la comunicación.",
+      contactFooter: "Contáctame",
+      emailFooter: "Correo",
+      socialMediaFooter: "Redes sociales",
+      downloadCvFooter: "Descargar CV",
+      titleAcademic: "Formación Académica",
     },
   };
 
@@ -51,29 +63,16 @@ window.addEventListener("load", () => {
       translations[lang].upperBarBanner;
     document.getElementById("titleHome").innerText =
       translations[lang].titleHome;
-    document.getElementById("spanHome").innerText =
-      translations[lang].spanHome;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-  }
+    document.getElementById("spanHome").innerText = translations[lang].spanHome;
+    document.getElementById("contactFooter").innerText =
+      translations[lang].contactFooter;
+    document.getElementById("emailFooter").innerText =
+      translations[lang].emailFooter;
+    document.getElementById("socialMediaFooter").innerText =
+      translations[lang].socialMediaFooter;
+    document.getElementById("downloadCvFooter").innerText =
+      translations[lang].downloadCvFooter;
+    }
   document.querySelectorAll(".langButtons").forEach((element) => {
     element.addEventListener("click", (e) => {
       translate(e.target.dataset.lang);
