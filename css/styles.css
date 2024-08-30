@@ -5,6 +5,8 @@ body{
   font-size: 18px;
 }
 
+
+
 .nav-style{
     background-color: #8E0606 !important;
     color: white;
@@ -22,22 +24,23 @@ body{
 }
 /* Color del botón en estado normal */
 .toggle-style {
-    background-color: #FFE433; /* Color de fondo */
+    background-color: #fff; /* Color de fondo */
     color: white; /* Color del texto */
-    border: 2px solid #FFE433; /* Borde */
+    border: 2px solid #fff; /* Borde */
   }
   
   /* Color del botón cuando está activo (toggle on) */
   .toggle-style.active {
-    background-color: #ffc233; /* Color de fondo cuando está activo */
-    color: #f0eb70; /* Color del texto cuando está activo */
-    border-color: #ffc233; /* Color del borde cuando está activo */
+    background-color: #beb8b8; /* Color de fondo cuando está activo */
+    color: #000000; /* Color del texto cuando está activo */
+    border-color: #beb8b8; /* Color del borde cuando está activo */
   }
   
   /* Cambiar los colores al pasar el mouse sobre el botón */
   .toggle-style:hover {
-    background-color: #b5a225;
+    background-color: #c6c6c6;
     color: white;
+    border-color: #c6c6c6
   }
   
   /* Cambiar los colores del botón cuando está activo y se pasa el mouse */
