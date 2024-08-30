@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
         pDS3: "  I am also skilled in using Figma, a powerful tool for web and           interface design, which allows me to craft user-friendly and visually           appealing digital experiences. Notion is another tool in my           repertoire, where I managed project planning, collaboration, and           information organization as a project manager for the year 2023-2024           CAWEB English project.",
         pDS4: "These digital skills not only enhance my ability to communicate           effectively across various platforms but also ensure that I can           deliver high-quality digital content and manage complex projects           efficiently.",
         spanVideosDS: "You can check out the videos I edited here:",
-        aKatarinaInterview: "Katarina Lechner's Interview ",
+        aKatarinaInterview: "",
         aCarolynInterview: "Carolyn Gubala's Interview",
 
   
