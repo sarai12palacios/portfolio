@@ -17,7 +17,9 @@ window.addEventListener("load", () => {
       contactFooter: "Contact me",
       emailFooter: "E-mail",
       socialMediaFooter: "Social Media",
-      downloadCvFooter: "Download CV"
+      downloadCvFooter: "Download CV",
+      titleAcademic: "Academic Background",
+
     },
     es: {
       aboutMeUl: "Acerca de mí",
@@ -36,7 +38,8 @@ window.addEventListener("load", () => {
       contactFooter: "Contáctame",
       emailFooter: "Correo",
       socialMediaFooter: "Redes sociales",
-      downloadCvFooter: "Descargar CV"
+      downloadCvFooter: "Descargar CV",
+      titleAcademic: "Formación Académica",
     },
   };
 
@@ -69,19 +72,7 @@ window.addEventListener("load", () => {
       translations[lang].socialMediaFooter;
     document.getElementById("downloadCvFooter").innerText =
       translations[lang].downloadCvFooter;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-    document.getElementById("volunteeringLi").innerText =
-      translations[lang].volunteeringLi;
-  }
+    }
   document.querySelectorAll(".langButtons").forEach((element) => {
     element.addEventListener("click", (e) => {
       translate(e.target.dataset.lang);
