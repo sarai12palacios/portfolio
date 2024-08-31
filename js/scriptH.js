@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
         emailFooter: "E-mail",
         socialMediaFooter: "Social Media",
         downloadCvFooter: "Download CV",
-        titleAcademic: "Academic Background",
+       
         ho1: "Hobbies",
         hotext1: "Outside of my professional life, I have a diverse range of hobbies that keep me inspired and energized. Reading is one of my greatest passions, whether it's immersing myself in the pages of a good book or diving into the latest web comics. This love for stories fuels my creativity and broadens my understanding of different perspectives and cultures.",
         hotext2: "Swimming is another activity I enjoy, as it helps me stay active and clear my mind. Whether it's in the pool or the open water, swimming provides a perfect balance of relaxation and physical challenge.",
@@ -45,7 +45,7 @@ window.addEventListener("load", () => {
         emailFooter: "Correo",
         socialMediaFooter: "Redes sociales",
         downloadCvFooter: "Descargar CV",
-        titleAcademic: "Formación Académica",
+       
         ho1: "Pasatiempos",
         hotext1: "Fuera de mi vida profesional, tengo una amplia gama de pasatiempos que me mantienen inspirada y llena de energía. Leer es una de mis grandes pasiones, ya sea sumergirme en las páginas de un buen libro o zambullirme en los últimos webcómics. Este amor por las historias alimenta mi creatividad y amplía mi comprensión de diferentes perspectivas y culturas.",
         hotext2: "La natación es otra actividad que me gusta, ya que me ayuda a mantenerme activa y a despejar la mente. Ya sea en la piscina o en aguas abiertas, la natación proporciona un equilibrio perfecto entre relajación y desafío físico.",
@@ -71,11 +71,14 @@ window.addEventListener("load", () => {
         translations[lang].hobbiesLi;
       document.getElementById("volunteeringLi").innerText =
         translations[lang].volunteeringLi;
-      document.getElementById("upperBarBanner").innerText =
-        translations[lang].upperBarBanner;
-      document.getElementById("titleHome").innerText =
-        translations[lang].titleHome;
-      document.getElementById("spanHome").innerText = translations[lang].spanHome;
+      document.getElementById("ho1").innerText =
+        translations[lang].ho1;
+      document.getElementById("hotext1").innerText =
+        translations[lang].hotext1;
+      document.getElementById("hotext2").innerText = translations[lang].hotext2;
+      document.getElementById("hotext3").innerText = translations[lang].hotext3;
+      document.getElementById("hotext4").innerText = translations[lang].hotext4;
+      document.getElementById("hotext5").innerText = translations[lang].hotext5;
       document.getElementById("contactFooter").innerText =
         translations[lang].contactFooter;
       document.getElementById("emailFooter").innerText =
