@@ -82,16 +82,14 @@ window.addEventListener("load", () => {
         translations[lang].hobbiesLi;
       document.getElementById("volunteeringLi").innerText =
         translations[lang].volunteeringLi;
-      document.getElementById("titleDigitalSkills").innerText =
-        translations[lang].titleDigitalSkills;
-      document.getElementById("pDS1").innerText =
-        translations[lang].pDS1;
-      document.getElementById("pDS2").innerText = translations[lang].pDS2;
-      document.getElementById("pDS3").innerText = translations[lang].pDS3;
-      document.getElementById("pDS4").innerText = translations[lang].pDS4;
-      document.getElementById("spanVideosDS").innerText = translations[lang].spanVideosDS;
-      document.getElementById("aKatarinaInterview").innerText = translations[lang].aKatarinaInterview;
-      document.getElementById("aCarolynInterview").innerText = translations[lang].aCarolynInterview;
+      document.getElementById("we1").innerText =
+        translations[lang].we1;
+      document.getElementById("wetext1").innerText =
+        translations[lang].wetext1;
+      document.getElementById("wetext2").innerText = translations[lang].wetext2;
+      document.getElementById("wetext3").innerText = translations[lang].wetext3;
+      document.getElementById("wetext4").innerText = translations[lang].wetext4;
+     
       document.getElementById("contactFooter").innerText =
         translations[lang].contactFooter;
       document.getElementById("emailFooter").innerText =

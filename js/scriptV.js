@@ -44,7 +44,7 @@ window.addEventListener("load", () => {
         emailFooter: "Correo",
         socialMediaFooter: "Redes sociales",
         downloadCvFooter: "Descargar CV",
-        titleAcademic: "Formación Académica",
+       
         vo1: "Voluntariado",
         votext1: "El voluntariado ha sido una parte importante y gratificante de mi vida desde que tenía 20 años. Mi experiencia comenzó con la Asociación Hondureña de Niños con Cáncer, donde tuve el privilegio de conocer a niños y a sus familias en momentos increíblemente difíciles y de salir a la calle el Día Nacional de concienciación sobre el cáncer infantil para recaudar dinero para la asociación. Esta experiencia me enseñó la importancia de la compasión y la resiliencia.",
         votext2: "Luego me involucré en Rotaract, la rama juvenil del movimiento rotario. A través de Rotaract, participé en varios proyectos de servicio a la comunidad, centrados en la promoción de la educación, la salud y el intercambio cultural. Uno de los proyectos más importantes en los que pude participar fue «Sleeping Children Around the World». Fue una experiencia enriquecedora que me permitió conectar con personas de ideas afines comprometidas a marcar una diferencia positiva en el mundo.",
@@ -69,11 +69,13 @@ window.addEventListener("load", () => {
         translations[lang].hobbiesLi;
       document.getElementById("volunteeringLi").innerText =
         translations[lang].volunteeringLi;
-      document.getElementById("upperBarBanner").innerText =
-        translations[lang].upperBarBanner;
-      document.getElementById("titleHome").innerText =
-        translations[lang].titleHome;
-      document.getElementById("spanHome").innerText = translations[lang].spanHome;
+      document.getElementById("vo1").innerText =
+        translations[lang].vo1;
+      document.getElementById("votext1").innerText =
+        translations[lang].votext1;
+      document.getElementById("votext2").innerText = translations[lang].votext2;
+      document.getElementById("votext3").innerText = translations[lang].votext3;
+      document.getElementById("votext4").innerText = translations[lang].votext4;
       document.getElementById("contactFooter").innerText =
         translations[lang].contactFooter;
       document.getElementById("emailFooter").innerText =
